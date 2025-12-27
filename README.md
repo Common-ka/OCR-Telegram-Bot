@@ -4,6 +4,9 @@ This is a self-hosted Telegram bot that converts images to text using advanced V
 
 The project is built on **n8n** (workflow automation) and runs inside **Docker**. It uses **Ngrok** to create a secure tunnel, allowing the bot to run on your local computer or server without exposing ports publicly.
 
+<img width="1000" height="600" alt="2025-12-27_21-03-09 (1)" src="https://github.com/user-attachments/assets/d1c35062-15a7-4af1-8ec4-a550378eb621" />
+
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed and configured:
