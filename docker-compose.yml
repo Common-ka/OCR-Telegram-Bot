@@ -12,7 +12,6 @@ services:
       - N8N_BASIC_AUTH_USER=${N8N_BASIC_AUTH_USER}
       - N8N_BASIC_AUTH_PASSWORD=${N8N_BASIC_AUTH_PASSWORD}docker compose up -d
       - WEBHOOK_URL=https://${NGROK_DOMAIN}
-      - N8N_BLOCK_ENV_ACCESS_IN_NODE=false
     volumes:
       - ./n8n_data:/home/node/.n8n
     networks:
